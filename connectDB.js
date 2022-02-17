@@ -4,9 +4,9 @@ import mysql from 'mysql';
 
 // Create connection 
 const DB = mysql.createPool({
-    host: 'us-cdbr-east-05.cleardb.net',
-    user: 'b94f56121de365',
-    password: '8fec8956',
+    host: 'eu-cdbr-west-02.cleardb.net',
+    user: 'b8bcbe8c044761',
+    password: '7324368d',
     database: 'heroku_eff08e493706747',
     timezone: 'Europe/Paris'
 });
